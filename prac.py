@@ -80,11 +80,71 @@ list = [1,1,2,34,54,23]
 # for i in list:
 #     print(i)
 
-b =list[0:3] 
-c = list[3::] #till the end
-d = list[0::2] # 2 between
-e = list[len(list)::-1] # reverse
-print(b,c,d,e)
+# b =list[0:3] 
+# c = list[3::] #till the end
+# d = list[0::2] # 2 between
+# e = list[len(list)::-1] # reverse
+# print(b,c,d,e)
 
 # for i in range(len(list)):
 #     print(list[i])
+
+
+
+# l=[]
+
+# if l:
+#     print(l)
+# else:
+#     print("there is no items")
+#     name = str(input("enter your name: "))
+#     l.append(name)
+#     print(l)
+
+
+
+# l = ["maryam", "davud", "zeynab"]
+
+# name = input("please enter your name: ")
+
+# if name not in l:
+#     print("your name is not in our list, sorry")
+# else: 
+#   print(f"welcome, {name}")
+    
+
+
+# squares = []
+
+# for value in range(1,11):
+#     square = value ** 2
+#     squares.append(square)
+
+# for i in squares:
+#     print(i)
+
+
+# digits = [2,4,54,2,7,8,9,0,123]
+# digits.sort()
+# print(digits)
+# print(sum(digits))
+# print(max(digits))
+# print(min(digits))
+
+
+# players = ['davud', 'maryam', 'zeynab', 'zumrud', 'farac']
+
+# for player in players[:3:-1]:
+#     print(player.title())
+
+
+# a = [1,2,3]+[4,5,6,7]
+# print(a)
+# print('salam  ' * 4)
+# print(['salam']* 5)
+
+# a= '321'
+# print(a[1])
+
+# a = list('34')
+# print(a)
