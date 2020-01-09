@@ -148,3 +148,33 @@ list = [1,1,2,34,54,23]
 
 # a = list('34')
 # print(a)
+
+
+
+# --------- DICTIONARY ---------
+
+my_dict = {
+    'name': 'zumrud',
+    'age': 36,
+    'language': ['html', 'css', 'js', 'python']
+}
+
+# print(my_dict.keys())
+# print(my_dict.values())
+# print(my_dict.items())
+
+# del my_dict['name']
+# print(my_dict)
+
+# d = my_dict.copy()
+# print(d)
+# d['name'] = "ali"
+# print(my_dict)
+# print(d)
+
+d = {}
+d.update(my_dict)
+my_dict['name'] = "ali"
+d['age'] = 37
+print(my_dict)
+print(d)
